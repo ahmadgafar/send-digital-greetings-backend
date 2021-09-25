@@ -19,3 +19,8 @@ https://send-digital-greetings-bend.herokuapp.com/
 
 ### API
 `/email`  Post ( `{ recipients : arr[ { email: "str"} ] ,message: "str",subject: "str",}` )
+
+### Env Variables
+mailjet keys:<br>
+MJ_APIKEY_PUBLIC<br>
+MJ_APIKEY_PRIVATE<br>
